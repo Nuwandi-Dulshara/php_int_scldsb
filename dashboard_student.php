@@ -1,7 +1,7 @@
 <?php
 include 'connection.php';
 
-// Fetch grades and their associated subjects
+
 $grades_sql = "SELECT * FROM grades";
 $grades_result = $conn->query($grades_sql);
 ?>

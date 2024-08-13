@@ -1,8 +1,8 @@
 <?php
-// upload_video.php
-require_once 'connection.php'; // Include your database connection file
 
-// Enable error reporting
+require_once 'connection.php'; 
+
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
